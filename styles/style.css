@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    
+    font-size: 15em;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    min-width: 320px;
+    color: #000;
+    background-color: #fff;
+    overflow-x: hidden;
+    
+}
+
+.logostyle {
+    height: 23px;
+}
+header .search-icon{
+    width: 1.6rem;
+    height: 1.8rem;
+}
+header .pro-pic{
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+}
+.search-icon1{
+    width: 18px !important;
+    height: 27px !important;
+    position: absolute;
+    top:15px;
+    left: 95px;
+    
+}
+.cartsm{
+    position: absolute;
+    top: 13px;
+    right: 70px;
+}
+section .slider{
+    margin-left: 4%;
+    margin-right: 3%;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 450px;
+}
+@media(max-width:991px)
+{
+    .carousel-inner img{
+        height: 300px;
+    }
+    .carousel-item1{
+        height: 600px;
+        background-color: rgba(230,230,230,255);
+        z-index: 7;
+        text-align: center;
+        
+    }
+    .carousel-item2{
+        height: 600px;
+        
+        background-color: rgb(63, 62, 62);
+    }
+    .caption1{
+        padding-top: 88px !important;
+    }
+    
+}
+
+
+.carousel-item {
+    position: relative;
+    z-index: 1;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 30%;
+    left: 7% !important;
+    width: 30%;
+}
+@media(max-width: 991px){
+    .carousel-caption{
+        top: 50%;
+        width: 90%;
+        
+
+
+    }
+}
+
+
+
+.carousel-caption h1 {
+    color: black;
+    text-align: left;
+    font-size: 2em;
+}
+.carousel-caption p{
+    font-size: 1em;
+    text-align: left;
+    color: black;
+}
+@media(max-width: 991px)
+{
+    .carousel-caption h1 {
+        color: black;
+        text-align: center;
+        padding-right: 55px;
+        font-size: 1.6rem;
+        font-weight: 600;
+        width: 113%;
+            
+    }
+    .carousel-caption p{
+        line-height: 1.2;
+        font-size: 1.1em;
+        text-align: center;
+        color: black;
+        padding-right: 50px;
+        width: 111%;
+    }
+    
+}
+
+.carousel-caption button {
+    background: black;
+    color: white;
+    padding: 6px 12px;
+    position: absolute;
+    left: 0;
+}
+@media(max-width: 991px)
+{
+    .carousel-caption .button1{
+        background: black;
+        color: white;
+        padding: 6px 12px;
+        position: absolute;
+        margin-left: 26%;
+        }
+        .carousel-caption .button2{
+            background: black;
+            color: white;
+            padding: 6px 12px;
+            position: absolute;
+            margin-left: 16%;
+            }
+}
+
+.carousel-caption button:hover {
+    color: white;
+    text-decoration: underline;
+}
+.new{
+    width: 3em;
+    height: 1.8em;
+}
+.section3{
+    margin-left: 4%;
+    margin-right: 3%;
+}
+.section3 .shop-btn:hover{
+            border-bottom: solid 3px #0067b8;
+            padding-bottom: 0;
+}
+.section3 .shop-btn:hover span{
+    padding-left: 3px;
+    transition: 0s ease-in-out;
+}
+.section3 img:hover{
+    filter: brightness(96%)
+}
+.section4{
+    margin-left: 4%;
+    margin-right: 3%;
+}
+.slider4 {
+    width: 100%;
+    height: 450px;
+    background-image: url("/images/slider2.webp");
+    background-size: 90%;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 80px;
+}
+
+.MSStore p {
+    color: black;
+}
+
+.MSStore h3 {
+    color: black;
+}
+
+.MSStore button {
+    color: white;
+    background-color: black;
+}
+
+.MSStore button:hover {
+    text-decoration: underline;
+    color: white;
+}
+.section5 {
+    margin-left: 4%;
+    margin-right: 3%
+}
+.section5 button:hover{
+    border-bottom: solid 3px #0067b8;
+    border-radius: 2%;
+}
+.section5 button{
+    color: #0067b8;
+    font-weight: 500;
+    margin-top: -2em;
+    margin-left: -1em;
+}
+.section6{
+    margin-left: 4%;
+    margin-right: 3%
+}
+.section6 .card{
+    background-color: #e6e6e6;
+}
+.section6 .btn:hover{
+    padding-left: 1em;
+    border-bottom: solid 2px;
+    border-radius: 2%;
+}
+.socialSection {
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-right: 3%
+}
+.socialSection .fb{
+    width: 1.5em;
+    height: 1.5em;
+}
+footer {
+    width: 104%;
+    background: #f2f2f2;
+    padding-top: 4em
+}
+
+footer a {
+    text-decoration: none;
+    color: #818181;
+    font-size: .8em;
+}
+footer p{
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.footerlast {
+    display: flex;
+    justify-content: space-between;
+    font-size: .8em;
+}
+
+.paddingTop {
+    padding-top: 10px;
+}
+
+.footerUpCredi {
+    display: flex;
+}
+footer .container{
+    margin-left: 4%;
+}
